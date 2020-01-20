@@ -1,0 +1,103 @@
+---
+title: "Model PS1"
+author: "borui sun"
+date: "1/18/2020"
+output: 
+  pdf_document:
+    latex_engine: xelatex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### Building models
+
+##### Deviant aggressive behavior  
+
+##### Answer the following question in 500-800 words:
+
+* **1. What social policy might be appropriate to reduce deviant aggressive behavior if Theory I were correct? Theory II? Theory III? Theory IV?**
+
+Theory I suggests that individuals engage in deviant aggressive behavior due to past experience where deviance is not punished but even rewarded. Such experience may come from interactions with families, friends and coworkers, or may be resulted from loose law enforcement. This theory also deemphasizes the impact of individual mind or personality on people’s behavior. Therefore, if Theory I is correct, two types of social policies should be adopted in order to reduce deviant aggressive behavior. Firstly, policies that targets on improving the quality of parental care and schools can facilitate the establishment of a positive and healthy learning environment so that early signs of deviant aggressive behavior can be stopped immediately. Secondly, policies focusing on expanding law enforcement should also be implemented in order to reinforce punishment for deviant social behavior. This can be achieved by, for example, increasing the number of police officers, harshening legal penalties or increasing security camera and surveillance video.  
+
+Theory II states that deviant aggressive behavior is an expression of hostility toward authority figures when individuals are frustrated. It attributes deviant aggressive behavior to inappropriate ways of expressing negative feelings. If this theory is correct, deviant aggressive behavior can be reduced if individuals are better instructed to mitigate or manage their anger and frustration. Therefore, the government should encourage individuals to seek professional help (i.e. therapist, psychiatrists, counseling services) when feel frustrated. Mental health service provides an appropriate channel for individuals to express negative feelings. It also teaches them how to control their anger in a way without violating any social norms or law. Pertinent social policies may include expanding national insurance coverage to include mental health services, increasing social awareness about mental health through media and requiring schools and companies to provide counseling services.  
+
+Theory III explains deviant aggressive behavior as a result of systematic discrimination against certain groups. The systematic discrimination can be race, gender or class-based. If this theory holds, deviant aggressive behavior can be stopped if the government abolishes legal articles discriminate against certain groups and instead offer equal treatment and protections for the oppressed. Affirmative action could also be considered to compensate previously oppressed groups and encourage their engagement with social norms. Raising public awareness about equality is also an important step to promote social changes in eliminating discrimination. 
+
+Theory IV believes that deviant aggressive behavior originates from a deviant subculture whose ideas and practice do not align with social standards.Such subcultures could be centered around shared political or religious ideas or even based a common hobby. If this theory holds, deviant behavior can be reduced by preventing individual contact with deviant subcultures. The following policies are therefore proposed. Raising public awareness about dangerous deviant subculture is the first step to prevent deviant aggressive behavior. By educating public about the characteristics of and negative influence associated with deviant subcultures, it helps individuals to quickly identify a deviant subculture before making further contact. The government can also promote programs or support groups that help involved individuals to leave deviant subcultures. In addition, increasing law enforcement for unlawful assembly could also prevent organized aggressive actions by deviant subculture.   
+
+
+#### Waiting until the last minute
+
+#### People often do things at the last minute (students turning in papers, professors grading exams, and so on).
+ 
+  + **a. Ask yourself why the observation might be true and write down your explanations.**
+  
+  The rational choice theory provides an excellent explanation for us to understant people's procrastinative behavior. Assuming individuals are self-interested utility maximizers, people will choose the act with highested expected utility. People procrastinate simply because the conducting the task yields a negative excepected utility. As people tend to discount the utility gained from a future period, $u(\text{task, today}) < \frac{u(\text{task, future})}{1+\text{individual's discount rate}}$, where $u(\text{task})$ is negative and individual's discount rate > 0. However, if performing the task yields a positive return, people should gladly choose to perform the task today as its utility would decrease the next day. People may still procrastinate due to the law of diminishing marginal utility, which states that, at some point, the expected marginial return is less than the amount of capital invested. In other words, a person's satisfication from doing a certain task decreases as he/she works longer. It is possible that if a task requires an enormous amount of time and effort, and people will keep working on the task until their marginal return drops to below zero and they start to procrastinate. 
+  
+  + **b. Generalize the explanatory model – that is, induce the most general, abstract model you can produce that still has the original observation as a consequence.**
+
+  The first model can be derived from the above explanation is the discounted utility - as people tend to discount utility gained from consumption at a future period, all other things equal, people refer to have something now as opposed to later long as the consumption yields a positive utility.
+  
+  For people who dislike writing papers, grading exames and so on, doing the task yields a negative utility for them but the negative utility will be reduced if they choose to do them in the future instead of today.  
+
+  + **c. Induce an alternative model that also has the original observation as a consequence.**
+  
+  The second model can be derived from the explanation in (a) is the law of diminishing marginal utility - as consumption increases, the marginal utility derived from each additional unit decreases.
+  
+  For people who enjoy writing papers, grading exames and so on, doing the task yields a positive utility for them but the marginal utility declines as they work longer, and people stop working on tasks and instead start to procrastinate when the marginal utility drops to below zero.
+
+  + **d. For each of the two general models produced in (b) and (c), derive two interesting predictions (four predictions in total). Be sure the logical connection between your model and your predictions is explicitly stated and that any assumed facts concerning the world are made explicit.**
+
+  * Main Assumptions:
+        
+      * People are self-interested, rational decision makers that seek to maximize their own utilities.
+        
+      * Each preference's associated utility level can be quantified.
+
+  * Discounted utility: 
+        
+      * prediction 1: Assuming that having money taken out of one's account yields a negative utility, people would choose to pay in installments rather than pay up front even if they can easily afford the full payment, as long as the interest rate is less than their personal discount rate. This happens because making payment in the future yields less negative utility than making payment today.
+
+      * prediction 2: Assuming that spending money always generates a positive utility, people would never save money for retirement or emergency because the utility of saving money and spending in the future is discount and will always be less than the utility generated by spending it today. This prediction also explains the necessity of having a national social security program such as OASDI. 
+        
+  * Law of diminishing marginal utility: 
+        
+      * prediction 1: Assuming eating pizza always yields a positive utility, the first slice of pizza will always taste better than the last slice of pizza. Due to the law of diminishing marginal utility, the marginal utility of eating an additional slice of pizza continues to decline as a person consumes more. 
+        
+      * prediction 2: Assuming playing video games yields a positive utility, the first hour of video games will always be more interesting and exciting than the last hour of video games. Due to the law of diminishing marginal utility, the marginal utility of playing an additional hour of video games continues to decline as a person plays longer.
+
+#### Selecting and fitting a model
+
+* **1. For each part, indicate whether we would generally expect the performance of a flexible statistical learning method to be better or worse than an inflexible method. Justify your answer.**
+
+  + **a. The sample size n is extremely large, and the number of predictors p is small.**
+  
+  A flexible method would perform **better** than an inflexible method because a large sample size and a small number of predictors can reduce the overfitting problem associated with using more flexible method. 
+  
+  + **b. The number of predictors p is extremely large, and the number of observations n is small.**
+  
+  A flexible method would perform **worse** than an inflexible method because an extremely large number of predictors increases the likelihood of overfitting and with a limited number of observations, we cannot afford a complex model. 
+
+  + **c. The relationship between the predictors and response is highly non-linear.**
+  
+  A flexible method would perform **better** than an inflexible method because an inflexible model is less likely to provide an accurate represetation of the highly non-linear relationship.
+  
+  + **d. The variance of the error terms $σ^2 = Var(\epsilon)$ is extremely high.**
+  
+  A flexible method would perfomr **worse** than an inflexible method because it is more likely to capture the noise in the data and hence overfit. 
+  
+* **2. Bias-variance: Think about the graph including bias, variance, training error, test error, and irreducible error curves, moving from less flexible statistical learning methods towards more flexible approaches.**
+
+  + **a. Explain why each of the five curves has the shape it has.**
+  
+  Bias: Bias refers to the error introduced by approximating a real-world problem by a simpler model. In the graph, bias decrease monotonically as flexibility increase. Generally, real-world problem is much more complicated. As we use more flexible method, it is more likely provide an accurate representation of the true {f} and hence result in less bias. 
+  
+  Variance: Variance refers to the amount by which $f(x)$ would change if we estimated it using a different training data set. In the graph, variance increases monotonically as flexibility increases because flexible model follows the observations in the training data set very closely and hence a small change in the training data may cause the estimate $\hat{f}$ to change considerably.
+  
+  Irreducible Error: The irreducible error curve is a horizontal line parapllel to the x-axis. It is constant because no matter how well we estimate $f(x)$, we cannot reduce the error introduced by $\epsilon$. 
+  
+  Training Error: Training error is the differences between the target values in the training data set and the predicted values estimated by our model. The training error declines monotonically as flexibility increases. Because our model is estimated by using the training data, as flexibility increases, our model can fit the observed data more closely with less error.
+  
+  Test Error: Test error is the differences between the target values in the test data set and the predicted values estimated by our model. It is determined by the sum of variance, bias and irreducible error. The test error curve is a U-shape curve. As flexibility increases, the bias tends to initially decreases faster than the variance increases, and hence the test error declines. However, as test error passes its lowest point, increasing flexibility only has little effect on reducing bias but starts to significantly increase the variance. As a result, the test error starts to increase. 
